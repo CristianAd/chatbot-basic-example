@@ -12,7 +12,9 @@ const chatArea = document.querySelector(".chatArea")
 const send = document.getElementById("send")
 
 send.addEventListener("click", ()=>{
-    chatArea.style.display = "block"
-   chatArea.innerHTML = "hola"
+    const assistant= document.querySelector('.assistant')
+    const tA = document.getElementById('smsText').value ;
+    assistant.innerHTML= tA
+   
     
 })
