@@ -13,8 +13,11 @@ const send = document.getElementById("send")
 
 send.addEventListener("click", ()=>{
     const assistant= document.querySelector('.assistant')
-    const tA = document.getElementById('smsText').value ;
+    let tA = document.getElementById('smsText').value ;
     assistant.innerHTML= tA
-   
+     
+     document.getElementById('smsText').value = "";
+    
     
 })
+

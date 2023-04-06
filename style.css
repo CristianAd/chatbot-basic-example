@@ -14,9 +14,15 @@ header{
 }
 .assistant{
     border: 1px solid black;
-    background-color: aqua;
+    background-color: rgb(9, 85, 85);
     width: 100%;
-    height: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
     
 }
 
@@ -24,11 +30,20 @@ header{
     width: 100%;
     height: 30%;
     display: none;
-    background-color: blueviolet;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
 }
-.chatArea{
-     
-    background-color: rgb(0, 41, 78);
-    width: 100%;
-    height: 4rem;
+
+.client textarea{
+    background-color: aquamarine;
+    margin: 1rem;
+}
+
+#help{
+    font-size: large;
+    background-color: rgb(0, 220, 4);
+    width: 10rem;
+    border-radius: 1rem;
+    cursor: pointer;
 }
